@@ -1,6 +1,7 @@
 # 📌 **Smart Vending Machine System**
 
 
+
 ## 📘 **프로젝트 개요 (Overview)**
 
 라즈베리파이 기반으로 구현한 스마트 자판기 시스템입니다.
@@ -8,6 +9,7 @@
 그리고 메뉴 조회 / 주문 / 주문 내역 조회 / 결제 API를 제공하는 구조로 구현되어 있습니다.
 
 본 프로젝트는 키오스크, 무인 자판기, 카페 주문기 등 다양한 IoT 디바이스에 확장 가능한 형태로 설계하였습니다.
+
 ---
 
 ## 🎯 **프로젝트 목표**
@@ -48,17 +50,12 @@
 
 ## 🖥️ **시스템 구성도**
 
-<img width="839" height="430" alt="image" src="https://github.com/user-attachments/assets/97e1d978-0dcd-4460-b81d-8fe5502806a3" />
-<img width="861" height="485" alt="image" src="https://github.com/user-attachments/assets/eeaca896-b994-43b9-892b-fadff9362e0d" />
 
 
 
 ---
 
-
----
-
-## 🧠 ** 주요 구성 요**
+## 🧠 ** 주요 구성 요소 **
 
 
 | 구성 요소              | 역할 / 설명                                          |
