@@ -42,8 +42,17 @@ https://github.com/user-attachments/assets/974a988a-d14f-4c7d-a3ee-1f0fbd7d100e
 - REST API를 통해 저장된 주문 및 상태 데이터를 조회할 수 있도록 구성
 
 ---
+## ⚙️ 5. 구현 상세
 
-## 🧩 기술 요약
+커널·디바이스 드라이버를 직접 구현하는 저수준 프로그래밍을 포함하지는 않지만,  
+Raspberry Pi 기반 임베디드 Linux 환경에서 **하드웨어 제어와 서버 로직이 동시에 안정적으로 동작해야 하는 구조**를 고려해 시스템을 설계했습니다.
+
+GPIO·UART·I2C·SPI를 통한 장치 제어 흐름과 서버 요청 처리 흐름을 명확히 분리하고,  
+**실제 장치 동작 결과를 기준으로 주문 상태를 단계적으로 관리**함으로써  
+주문 상태와 모터 구동 상태가 어긋나는 문제를 방지하는 안정적인 제어 구조를 구현했습니다.
+
+---
+## 🧩 6. 기술 요약
 
 - **Hardware / Embedded Platform**:  Raspberry Pi (Linux), STM32F411RE, GPIO, IR Sensor, Motor, Solenoid, LED
 - **Language**: C
